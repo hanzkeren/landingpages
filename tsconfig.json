@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "#app/*": ["src/*"]
+    }
+  },
+  "exclude": ["BLOCKS/login/login3.tsx", "BLOCKS/signup/signup4.tsx"]
+}
