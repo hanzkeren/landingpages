@@ -4,7 +4,7 @@ import { Button } from '#app/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-0">
+    <section className="pt-32 pb-20">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <div className="relative mx-auto flex max-w-xl flex-col items-center justify-center py-10 text-center">
           <h1 className="mb-3 text-4xl lg:text-7xl">Partner Untuk Bisnis Yang Ambisius</h1>
@@ -29,9 +29,12 @@ const Hero = () => {
         <div className="-mt-32 overflow-hidden py-8">
           <div className="relative flex w-full justify-center">
             <img
-              src="/hero.png"
+              src="/heromemek.svg"
               alt="Hero"
-              className="relative w-full object-contain max-w-[900px] xl:max-w-[1200px]"
+              width={1200}
+              height={800}
+              loading="eager"
+              className="relative w-full object-contain max-w-[900px] xl:max-w-[1200px] translate-y-[50px] md:translate-y-[10px]"
             />
           </div>
         </div>

@@ -52,12 +52,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between rounded-full border bg-background/80 px-4 py-2 shadow-sm backdrop-blur-lg">
         {/* Logo */}
         <a href="/" className="flex shrink-0 items-center gap-2 px-2">
-          <img
-            src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg"
-            alt="logo"
-            className="w-8"
-          />
-          <span className="font-bold">Brand</span>
+          <img src="/logo.svg" alt="logo" className="w-8" />
+          <span className="font-bold">Teamhore.</span>
         </a>
 
         {/* Desktop Navigation */}

@@ -7,7 +7,7 @@ const CTA = () => {
     <section className="py-20">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         <Card className="border-border/60 bg-background/90 backdrop-blur">
-          <div className="grid items-center gap-8 p-8 md:p-12 lg:grid-cols-[1.05fr_0.95fr]">
+          <div className="grid items-center gap-8 overflow-hidden p-8 md:p-12 lg:grid-cols-[0.95fr_1.05fr]">
             <div className="space-y-6">
               <div className="space-y-3">
                 <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
@@ -29,9 +29,15 @@ const CTA = () => {
               </p>
             </div>
 
-            <div className="w-full">
-              <div className="aspect-[4/2] overflow-hidden rounded-xl bg-background">
-                <img src="/CTA.png" alt="CTA" className="h-full w-full object-cover" />
+            <div className="w-full translate-y-[70px]">
+              <div className="aspect-[16/10] overflow-hidden rounded-xl bg-background">
+                <img
+                  src="/cta.svg"
+                  alt="CTA"
+                  width={800}
+                  height={500}
+                  className="h-full w-full translate-x-[30px] scale-[1.2] object-cover"
+                />
               </div>
             </div>
           </div>

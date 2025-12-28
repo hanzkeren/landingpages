@@ -8,8 +8,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="text-xl font-bold tracking-tighter flex items-center gap-2">
-              {/* Ganti dengan Logo SVG Anda */}
-              <div className="size-8 bg-primary rounded-lg"></div>
+              <img src="/logo.svg" alt="logo" className="h-8 w-8" />
               Teamhore.
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">

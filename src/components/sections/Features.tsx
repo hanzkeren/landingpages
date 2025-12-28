@@ -75,7 +75,7 @@ const REPORT_ROWS = [
 
 const Feature = () => {
   return (
-    <section className="-mt-8 pt-8 pb-20">
+    <section className="py-20">
       <div className="container mx-auto max-w-7xl px-4 md:px-6">
         {/* === HEADER SECTION === */}
         <div className="text-center mb-16 space-y-4">
@@ -164,7 +164,7 @@ const Feature = () => {
           </div>
 
           {/* === MAIN FEATURE: DASHBOARD === */}
-          <div className="group relative h-[300px] lg:h-[620px] border flex flex-col rounded-3xl bg-muted/20 p-6 md:p-10 overflow-hidden mt-4 transition-all hover:shadow-lg">
+          <div className="group relative h-[320px] lg:h-[620px] border flex flex-col rounded-3xl bg-muted/20 p-6 md:p-10 overflow-hidden mt-4 transition-all hover:shadow-lg">
             <div className="w-full max-w-4xl mb-8 flex-shrink-0">
               <h3 className="mb-4 text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl text-foreground">
                 Satu dashboard, semua angka jernih
@@ -175,7 +175,7 @@ const Feature = () => {
               </p>
             </div>
 
-            <div className="relative flex-1 min-h-[420px] lg:min-h-[640px] w-full overflow-hidden rounded-t-xl border bg-muted/30 shadow-xl transition-transform duration-300 group-hover:scale-[1.02]">
+            <div className="relative flex-1 min-h-[440px] lg:min-h-[640px] w-full overflow-hidden rounded-t-xl border bg-muted/30 shadow-xl transition-transform duration-300 group-hover:scale-[1.02]">
               <div className="flex items-center gap-1.5 border-b bg-muted/50 px-4 py-3">
                 <div className="size-2.5 rounded-full bg-red-500/20"></div>
                 <div className="size-2.5 rounded-full bg-yellow-500/20"></div>
