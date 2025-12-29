@@ -1,22 +1,31 @@
 export default {
-  "bootstrapScriptContent": "import(\"/assets/index-DYNHu0cs.js\")",
+  "bootstrapScriptContent": "import(\"/assets/index-B-eRcZTb.js\")",
   "clientReferenceDeps": {
     "cf187f3afe9a": {
       "js": [
-        "/assets/client-ZyUFYkhm.js",
-        "/assets/index-DYNHu0cs.js"
+        "/assets/client-B-eWhAMX.js",
+        "/assets/index-B-eRcZTb.js"
       ],
       "css": [
-        "/assets/index-D7YYzrUS.css"
+        "/assets/index-DIuFf-fa.css"
       ]
     },
     "30e93849e0c4": {
       "js": [
-        "/assets/client-ZyUFYkhm.js",
-        "/assets/index-DYNHu0cs.js"
+        "/assets/client-B-eWhAMX.js",
+        "/assets/index-B-eRcZTb.js"
       ],
       "css": [
-        "/assets/index-D7YYzrUS.css"
+        "/assets/index-DIuFf-fa.css"
+      ]
+    },
+    "516b76d1b60c": {
+      "js": [
+        "/assets/client-B-eWhAMX.js",
+        "/assets/index-B-eRcZTb.js"
+      ],
+      "css": [
+        "/assets/index-DIuFf-fa.css"
       ]
     }
   },

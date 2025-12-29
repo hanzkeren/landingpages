@@ -35,7 +35,7 @@ const ITEMS = [
       },
     ],
   },
-  { label: 'Tentang kami', href: '#' },
+  { label: 'Tentang kami', href: '/tentang-kami' },
   { label: 'Kontak', href: '/konsultasi' },
 ];
 

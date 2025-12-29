@@ -4,6 +4,7 @@ import App from './components/App';
 import GoogleAdvertisingPage from './components/pages/GoogleAdvertisingPage';
 import KonsultasiPage from './components/pages/KonsultasiPage';
 import MetaAdvertisingPage from './components/pages/MetaAdvertisingPage';
+import TentangKamiPage from './components/pages/TentangKamiPage';
 import TikTokAdvertisingPage from './components/pages/TiktokAdvertisingPage';
 
 const PAGES: Record<string, JSX.Element> = {
@@ -11,6 +12,7 @@ const PAGES: Record<string, JSX.Element> = {
   '/services/google-advertising': <GoogleAdvertisingPage />,
   '/services/tiktok-advertising': <TikTokAdvertisingPage />,
   '/services/meta-advertising': <MetaAdvertisingPage />,
+  '/tentang-kami': <TentangKamiPage />,
   '/konsultasi': <KonsultasiPage />,
 };
 

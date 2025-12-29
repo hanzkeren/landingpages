@@ -498,10 +498,10 @@ function requireReact() {
   return react.exports;
 }
 var reactExports = requireReact();
-const React2 = /* @__PURE__ */ getDefaultExportFromCjs(reactExports);
-const React = /* @__PURE__ */ _mergeNamespaces({
+const React = /* @__PURE__ */ getDefaultExportFromCjs(reactExports);
+const React$1 = /* @__PURE__ */ _mergeNamespaces({
   __proto__: null,
-  default: React2
+  default: React
 }, [reactExports]);
 function safeFunctionCast(f) {
   return f;
@@ -555,7 +555,7 @@ var hasRequiredReactDom_production;
 function requireReactDom_production() {
   if (hasRequiredReactDom_production) return reactDom_production;
   hasRequiredReactDom_production = 1;
-  var React3 = requireReact();
+  var React2 = requireReact();
   function formatProdErrorMessage(code) {
     var url = "https://react.dev/errors/" + code;
     if (1 < arguments.length) {
@@ -594,7 +594,7 @@ function requireReactDom_production() {
       implementation
     };
   }
-  var ReactSharedInternals = React3.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+  var ReactSharedInternals = React2.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
   function getCrossOriginStringAs(as, input) {
     if ("font" === as) return "";
     if ("string" === typeof input)
@@ -2352,12 +2352,16 @@ function createFromReadableStream(stream, options = {}) {
 }
 const clientReferences = {
   "cf187f3afe9a": async () => {
-    const m = await import("./assets/client-6uVZD4tE.js");
+    const m = await import("./assets/client-f3SRYmSt.js");
     return m.export_cf187f3afe9a;
   },
   "30e93849e0c4": async () => {
-    const m = await import("./assets/client-6uVZD4tE.js");
+    const m = await import("./assets/client-f3SRYmSt.js");
     return m.export_30e93849e0c4;
+  },
+  "516b76d1b60c": async () => {
+    const m = await import("./assets/client-f3SRYmSt.js");
+    return m.export_516b76d1b60c;
   }
 };
 var reactDomExports = requireReactDom();
@@ -2400,7 +2404,7 @@ function requireReactDomServer_edge_production() {
   hasRequiredReactDomServer_edge_production = 1;
   const __viteRscAsyncHooks = require$$0;
   globalThis.AsyncLocalStorage = __viteRscAsyncHooks.AsyncLocalStorage;
-  var React3 = requireReact(), ReactDOM2 = requireReactDom(), REACT_ELEMENT_TYPE = /* @__PURE__ */ Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = /* @__PURE__ */ Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = /* @__PURE__ */ Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = /* @__PURE__ */ Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = /* @__PURE__ */ Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = /* @__PURE__ */ Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = /* @__PURE__ */ Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = /* @__PURE__ */ Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = /* @__PURE__ */ Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = /* @__PURE__ */ Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = /* @__PURE__ */ Symbol.for("react.memo"), REACT_LAZY_TYPE = /* @__PURE__ */ Symbol.for("react.lazy"), REACT_SCOPE_TYPE = /* @__PURE__ */ Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = /* @__PURE__ */ Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = /* @__PURE__ */ Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = /* @__PURE__ */ Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = /* @__PURE__ */ Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
+  var React2 = requireReact(), ReactDOM2 = requireReactDom(), REACT_ELEMENT_TYPE = /* @__PURE__ */ Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = /* @__PURE__ */ Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = /* @__PURE__ */ Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = /* @__PURE__ */ Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = /* @__PURE__ */ Symbol.for("react.profiler"), REACT_CONSUMER_TYPE = /* @__PURE__ */ Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = /* @__PURE__ */ Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = /* @__PURE__ */ Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = /* @__PURE__ */ Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = /* @__PURE__ */ Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = /* @__PURE__ */ Symbol.for("react.memo"), REACT_LAZY_TYPE = /* @__PURE__ */ Symbol.for("react.lazy"), REACT_SCOPE_TYPE = /* @__PURE__ */ Symbol.for("react.scope"), REACT_ACTIVITY_TYPE = /* @__PURE__ */ Symbol.for("react.activity"), REACT_LEGACY_HIDDEN_TYPE = /* @__PURE__ */ Symbol.for("react.legacy_hidden"), REACT_MEMO_CACHE_SENTINEL = /* @__PURE__ */ Symbol.for("react.memo_cache_sentinel"), REACT_VIEW_TRANSITION_TYPE = /* @__PURE__ */ Symbol.for("react.view_transition"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator;
   function getIteratorFn(maybeIterable) {
     if (null === maybeIterable || "object" !== typeof maybeIterable) return null;
     maybeIterable = MAYBE_ITERATOR_SYMBOL && maybeIterable[MAYBE_ITERATOR_SYMBOL] || maybeIterable["@@iterator"];
@@ -2614,7 +2618,7 @@ function requireReactDomServer_edge_production() {
   function sanitizeURL(url) {
     return isJavaScriptProtocol.test("" + url) ? "javascript:throw new Error('React has blocked a javascript: URL as a security precaution.')" : url;
   }
-  var ReactSharedInternals = React3.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, sharedNotPendingObject = {
+  var ReactSharedInternals = React2.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, sharedNotPendingObject = {
     pending: false,
     data: null,
     method: null,
@@ -3184,7 +3188,7 @@ function requireReactDomServer_edge_production() {
   }
   function flattenOptionChildren(children) {
     var content = "";
-    React3.Children.forEach(children, function(child) {
+    React2.Children.forEach(children, function(child) {
       null != child && (content += child);
     });
     return content;
@@ -7636,7 +7640,7 @@ performance.now();setTimeout(w,2300>q&&2E3<q?2300-q:500)})])},types:[]});z.ready
     };
   }
   function ensureCorrectIsomorphicReactVersion() {
-    var isomorphicReactPackageVersion = React3.version;
+    var isomorphicReactPackageVersion = React2.version;
     if ("19.2.3" !== isomorphicReactPackageVersion)
       throw Error(
         'Incompatible React versions: The "react" and "react-dom" packages must have the exact same version. Instead got:\n  - react:      ' + (isomorphicReactPackageVersion + "\n  - react-dom:  19.2.3\nLearn more: https://react.dev/warnings/version-mismatch")
@@ -7891,7 +7895,7 @@ var hasRequiredReactDomServerLegacy_browser_production;
 function requireReactDomServerLegacy_browser_production() {
   if (hasRequiredReactDomServerLegacy_browser_production) return reactDomServerLegacy_browser_production;
   hasRequiredReactDomServerLegacy_browser_production = 1;
-  var React3 = requireReact(), ReactDOM2 = requireReactDom();
+  var React2 = requireReact(), ReactDOM2 = requireReactDom();
   function formatProdErrorMessage(code) {
     var url = "https://react.dev/errors/" + code;
     if (1 < arguments.length) {
@@ -8074,7 +8078,7 @@ function requireReactDomServerLegacy_browser_production() {
   function sanitizeURL(url) {
     return isJavaScriptProtocol.test("" + url) ? "javascript:throw new Error('React has blocked a javascript: URL as a security precaution.')" : url;
   }
-  var ReactSharedInternals = React3.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, sharedNotPendingObject = {
+  var ReactSharedInternals = React2.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, ReactDOMSharedInternals = ReactDOM2.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, sharedNotPendingObject = {
     pending: false,
     data: null,
     method: null,
@@ -8419,7 +8423,7 @@ function requireReactDomServerLegacy_browser_production() {
   }
   function flattenOptionChildren(children) {
     var content = "";
-    React3.Children.forEach(children, function(child) {
+    React2.Children.forEach(children, function(child) {
       null != child && (content += child);
     });
     return content;
@@ -12990,10 +12994,10 @@ function loadBootstrapScriptContent() {
 export {
   renderHtmlFallback as INTERNAL_renderHtmlFallback,
   renderHtmlStream as INTERNAL_renderHtmlStream,
-  React as R,
+  React$1 as R,
   Slot as S,
   reactDomExports as a,
-  React2 as b,
+  React as b,
   ReactDOM as c,
   jsxRuntimeExports as j,
   reactExports as r

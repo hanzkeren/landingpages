@@ -60,7 +60,7 @@ const Footer = () => {
             <h3 className="mb-4 font-semibold">Perusahaan</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-foreground">
+                <a href="/tentang-kami" className="hover:text-foreground">
                   Tentang kami
                 </a>
               </li>
